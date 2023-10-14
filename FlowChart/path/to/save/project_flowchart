@@ -1,0 +1,11 @@
+digraph project_flowchart {
+	start [label=Start]
+	step1 [label="Step 1"]
+	step2 [label="Step 2"]
+	step3 [label="Step 3"]
+	end [label=End]
+	start -> step1
+	step1 -> step2
+	step2 -> step3
+	step3 -> end
+}
